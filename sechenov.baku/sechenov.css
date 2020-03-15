@@ -1,0 +1,533 @@
+.first {
+    width: 100%;
+}
+.leftmenu {
+    display: block;
+    height: 846px;
+    width: 185px;
+    background-color: #004899;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    z-index: 7;
+    padding-left:0px;
+    list-style: none;
+    box-sizing: border-box;
+}
+.leftmenu img {
+margin: 0px auto;
+display: block;
+    max-width: 100%;
+    height: auto;
+}
+.list {
+    width: 100%;
+    text-decoration: none;
+    border-bottom: 1px solid #005cc3;
+ list-style: none;
+    box-sizing: border-box;
+    display: block;
+  padding-inline-start: 1px;
+}
+.list1 a {
+
+border-top: 1px solid #005cc3;
+width: 100%;
+color: white;
+font-size: 16px;
+font-weight: 50px;
+line-height: 35px;
+text-align: inherit;
+text-decoration: none;
+box-sizing: border-box;
+padding-top:15px;
+padding-left:15px;
+display: inline-block;
+    }
+.list1 a:hover {
+ background-color:	#0000FF;}
+
+.right { 
+    width: calc(100% - 185px);
+    left: 0;
+   float:right ;
+   position: relative;
+
+}
+.rightmenu {
+position: absolute;
+    box-sizing: border-box;
+
+}
+.rightmenuul{
+    display: flex;
+  margin-top: -820px;
+  padding-left: 1px;
+  text-decoration: none;
+}
+.ul2 li {
+    list-style: none;
+}
+.ul2 a { position: relative;
+    height: 3px;
+    padding: 6px 6px;
+    color: #51595c;
+    background-color: #fff;
+    font-weight: 300px;
+    font-family: 'Museo', 'Ubuntu', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+.ul2 a:hover {
+color: royalblue;
+text-decoration: underline;
+}
+.rightmenu img {
+    box-sizing: border-box;
+    cursor: pointer;
+    color: #4f91da;
+  height: 30px;
+}
+
+.rightmenu .eng{ 
+display: block;
+text-decoration: none;
+border-left: 1px solid #d2ddee ;
+float: right;
+padding: 0px 80px;}
+
+.rightmenu .eng a:hover {
+    color: black;
+ 
+}
+.social {
+    width: 100%;
+    padding: 11px 10px;
+    background-color: #003571;
+    box-sizing: border-box;
+    top: -80px;
+    
+}
+.social-inner {
+display: flex;
+text-decoration:none ;
+
+}
+.social-item{
+cursor: pointer;
+text-align: center;
+margin: 0;
+color: white;
+padding: 0px 3px;
+} 
+.copyright {
+    display: block;
+ 
+}
+.copy1 {
+position: absolute;
+ padding: 65px 22px;
+font-weight: 100;
+line-height: 1rem;
+color: #cadef5;
+top: 600px;
+}
+.slides {
+    width: 100%;
+    position: relative;
+}
+.slides1 img{
+ overflow: hidden;
+ position: relative;
+ margin-right: -15px;
+ margin-left: -15px;
+ background-color: #181616;
+ height: 389px;
+ width: 750px;
+top: -790px;
+left: 20px;
+cursor: pointer;
+}
+.gifs {
+    position: absolute;
+    float: right;
+    top: -790px;
+    right: 30px;
+}
+
+.gifs2 {
+    position: absolute;
+    float: right;
+    top: -630px;
+    right: 30px;
+}
+
+.gifs3 {
+    position: absolute;
+    float: right;
+    top: -470px;
+    right: 30px;
+}
+
+.gifs4 {
+    position: absolute;
+    float: right;
+    top: -310px;
+    right: 30px;
+}
+.fact {
+position:relative;
+width: 748px;
+height: 78px;
+background-color:#003571 ;
+top:-791px;
+left:5px;
+display: flex;
+}
+.big {
+    position: absolute;
+font-size: xx-large;
+color: white;
+text-align: center;
+right: 600px;
+top: -8px;
+}
+.medium {
+    position: absolute;
+    color: white;
+   right: 280px;
+   top: -5px;
+
+}
+.fact a {
+    position: absolute;
+    color: white;
+   right: 90px;
+   top: 15px;
+
+}
+.fact img {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+   cursor: pointer;
+    right: 20px;
+    top: 10px;
+    border: 2px solid white;
+}
+.row {width: 750px;
+    height: 1509px;
+    background-color: whitesmoke;
+    margin-top: -700px;
+    margin-left: 10px;
+    
+}
+.row-image {
+width: 345px;
+height: 503px;
+padding: 15px 15px;
+}
+.row-image img {
+    width: 345px;
+    height: 205px;
+}
+.row-image2 {
+    width: 345px;
+    height: 503px;
+    padding: 15px 15px;
+    margin-left: 370px;
+    margin-top: -330px;
+    }
+    .row-image2 img {
+        position: absolute;
+        width: 345px;
+        height: 205px;
+        margin-left: 20px;
+        margin-top: -205px;
+
+    }
+    .row-image3{
+        width: 345px;
+        height: 503px;
+        padding: 15px 15px;
+        margin-top: -300px;
+        }
+        .row-image3 img {
+            width: 345px;
+            height: 205px;
+        }
+        .row-image4{
+            position: absolute;
+            width: 345px;
+            height: 503px;
+            margin-left:405px ;
+            margin-top: -520px;
+            }
+            .row-image4 img {
+                width: 345px;
+                height: 205px;
+            }
+            .row-image5{
+                width: 345px;
+                height: 503px;
+                padding: 15px 15px;
+                margin-top: -200px;
+                }
+                .row-image5 img {
+                    width: 345px;
+                    height: 205px;
+                }
+                .row-image6{
+                    width: 345px;
+                    height: 503px;
+                    padding: 15px 15px;
+                    margin-top: -530px;
+                    margin-left: 390px;
+                    }
+                    .row-image6 img {
+                        width: 345px;
+                        height: 205px;
+                    }
+  .mediateka {
+      position: relative;
+      width: 1175px;
+      height: 596px;
+      background-color:#191970;
+  }                  
+  .mediatext {
+      position: absolute;
+     font-family: 'Alumna', sans-serif;
+    font-size: 1rem;
+    line-height: 3rem;
+    margin: 2px;
+    margin-top: 40px;
+    color: #fff;
+    left:60px;
+}
+
+
+
+.fonts1 {
+    width: 39px;
+    height: 39px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right: 90px;
+    top: 60px;
+    border: 1px solid white;
+    text-align: end;
+}
+.fonts2 {
+    width: 39px;
+    height: 39px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right: 49px;
+    top: 60px;
+    border: 1px solid white;}
+    
+    
+    .youtube {
+        position: absolute;
+        margin-top: 150px;
+    color: white;
+}
+    .youtube2 {
+        position: absolute;
+        margin-top: 150px;
+    color: white;
+    left: 450px;
+    }
+    .row2{
+        position: relative;
+        width:1175px ;
+        height: 200px;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    html, body {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        font: 200 14px Arial;
+        color: #000;
+    }
+    .is-banner {
+        text-transform: uppercase;
+        box-shadow: inset 0px 0px 13px 6px #D3D2D2;
+
+        display: -webkit-box;
+        display: -moz-box;
+        display: -webkit-flexbox;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+
+        background: #fff;
+    }
+    .is-banner > img {
+        display: block;
+        width: 80px;
+        height: 80px;
+        margin: 10px;
+    }
+    .is-banner .banner-text {
+        color: #222222;
+        font-size: 10px;
+        line-height: 1.4;
+    }
+    .is-banner a {
+        color: #EC3035;
+        text-decoration: none;
+        border: 1px solid #EC3035;
+        padding: 5px;
+        display: block;
+        text-align: center;
+        font-size: 10px;
+        width: 85px;
+    }
+    .is-banner .banner-btns {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -webkit-flexbox;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        margin-top: 10px;
+    }
+    .horizontal-banner {
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-flex-align: center;
+        align-items: center; 
+
+        width: 700px;
+        padding: 40px 15px;
+    }
+    .horizontal-banner img {
+        width: 160px;
+        height: 160px;
+        margin: 0 25px;
+    }
+    .horizontal-banner .banner-btns a:first-child,
+    .square-banner .banner-btns a:first-child {
+        margin-right: 20px;
+    }
+    .vertical-banner {
+        width: 120px;
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        -ms-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center; 
+
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-flex-align: center;
+        align-items: center; 
+    }
+    .vertical-banner .banner-text,
+    .square-banner .banner-text {
+        text-align: center;
+    }
+    .vertical-banner .banner-text{
+        width: 110px;
+        font-size: 9px;
+        line-height: 1.3;
+    }
+    .square-banner .banner-text{
+        width: 290px;
+    }
+    .mini-banner .banner-text{
+        width: 200px;
+    }
+    .vertical-banner .banner-btns {
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-flex-align: center;
+        align-items: center; 
+    }
+    .vertical-banner .banner-btns a {
+        margin-bottom: 10px;
+    }
+    .banner-content{
+        font: 200 14px Arial;
+        color: #000;
+    }
+    .square-banner {
+        width: 300px;
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-flex-align: center;
+        align-items: center; 
+
+        padding: 0px;
+    }
+    .square-banner .banner-btns {
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        -ms-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center; 
+    }
+    .square-banner .banner-btns a {
+        margin-bottom: 10px;
+    }
+    .mini-banner {
+        width: 300px;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-flex-align: center;
+        align-items: center; 
+        margin-left: 190px;
+    }
+
+    .mini-banner img {
+        width: 80px;
+        height: 80px;
+        margin:10px;
+    }
+    .mini-banner .banner-text {
+        padding-top: 0px;
+        font-size: 10px;
+        text-align: center;
+    }
+    .mini-banner a {
+        padding: 5px;
+        font-size: 10px;
+        width: 85px;
+        margin-right: 10px;
+    }
+.konec {
+    position: absolute;
+margin-left: 550px;
+top:1875px;
+
+}
+.konec2 {
+position: absolute;
+margin-left: 550px;
+}
